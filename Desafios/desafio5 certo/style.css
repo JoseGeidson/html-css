@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.427);
+    padding-top: 20px;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+}
+
+aside {
+    margin: 20px;
+    text-align: left;
+}
+
+li > a {
+    text-decoration: none;
+    color: blue;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    color: rgb(5, 5, 94);
+}
+
+ul {
+    list-style-position: inside;
+}

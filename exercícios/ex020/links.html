@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(65, 144, 66);
+        }
+
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .nome::before {
+            content: '»';
+            color: darkgray;
+            text-decoration: none;
+        }
+
+        .nome::after {
+            content: '«';
+            color: darkgray;
+            text-decoration: none;
+        }
+
+        p {
+            background-color: aquamarine;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Links Personalizados</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/14%20-%20Fontes.pdf" target="_blank">Repósitório Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Swh0Yt2s5Zs&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=15" target="_blank" class="nome">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank">Site do Curso em Video</a></li>
+    </ul>
+    <p>Que loucura é essa meu irmão</p>
+
+</body>
+</html>

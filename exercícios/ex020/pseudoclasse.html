@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div {
+            display: inline-table;
+            background-color: rgb(136, 136, 182);
+            border: 2px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: aqua;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover {
+            background-color: rgb(58, 58, 184);
+        }
+
+    </style>
+</head>
+<body>
+    <div>01<p>Achou :D</p></div>
+    <div>02<p>Malandro</p></div>
+    <div>03<p>Miserávi</p></div>
+</body>
+</html>

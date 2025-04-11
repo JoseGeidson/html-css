@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Deafio da imagem dinâmica</h1>
+    <p>Segue abaixo a imagem flexível de acordo com o tamanho da tela.</p>
+    <picture>
+        <source media="(max-width:700px)" srcset="ghost-300.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="ghost-700.jpg" type="image/jpg">
+        <img src="ghost-1000.jpg" alt="Imagem da banda Ghost">
+    </picture>
+</body>
+</html>
