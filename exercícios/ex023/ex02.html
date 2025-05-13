@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 5px;
+            background-color: darkgray;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+
+        }
+
+        thead {
+            background-color: rgb(81, 81, 81);
+            color: #fff;
+        }
+
+        tfoot {
+            background-color: rgb(53, 53, 53);
+            color: #fff;
+        }
+
+        .num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Maiores roubos do Mula</caption>
+        <thead>
+             <tr>         
+                <th scope="col">Roubo do Lula</th>
+                <th scope="col">Total</th>
+                <th>C1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mensalão</td>
+                <td class="num">100 000 000</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>Petrolão</td>
+                <td class="num">52 000 000 000</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>IPVA</td>
+                <td class="num">100 000 000 000</td>
+                <td>C4</td>
+            </tr>
+            <tr>
+                <td>INSS</td>
+                <td class="num">90 000 000 000</td>
+                <td>C5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total Roubo</th>
+                <td class="num"><strong>142 100 000 000</strong></td>
+                <td>C6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
